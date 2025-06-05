@@ -48,7 +48,7 @@ class ProductManagerTest {
         assertEquals("Laptop", electronics.get(0).getName());
     }
 
-    /*
+
     @Test
     void testGetProductsByPriceRange() {
         ProductManager manager = new ProductManager();
@@ -61,7 +61,6 @@ class ProductManagerTest {
         assertTrue(result.stream().anyMatch(p -> p.getName().equals("Teclado")));
         assertTrue(result.stream().anyMatch(p -> p.getName().equals("Portatil")));
     }
-     */
 
 
     @Test
